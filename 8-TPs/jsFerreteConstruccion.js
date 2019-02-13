@@ -16,12 +16,12 @@ function Rectangulo ()
 }
 function Circulo () 
 {
-	var radio = parseInt(document.getElementById("radio").value);
+	var radio = parseInt(document.getElementById("Radio").value);
     var alambre;
     var perimetro;
     perimetro = radio * 2 * Math.PI;
     alambre = perimetro * 3;
-    alert("Se necesitan comprar " + alambre.toFixed(2) + "metros de alambre");
+    alert("Se necesitan comprar " + alambre.toFixed(2) + " metros de alambre");
 
 }
 function Materiales () 
@@ -32,5 +32,9 @@ function Materiales ()
     var cal;
     var cemento;
     superficie = largo * ancho;
+    cal = superficie * 3;
+    cemento = superficie * 2;
+
+    alert("Para una superficie de " + superficie + " m2 se necesitan " + cal + " bolsas de cal y " + cemento + " bolsas de cemento");
     
 }
