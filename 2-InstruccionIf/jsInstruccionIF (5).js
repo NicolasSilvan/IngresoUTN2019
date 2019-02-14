@@ -5,7 +5,7 @@ function Mostrar()
 var años = parseInt(document.getElementById("edad").value);
 
 
-if (años < 1 || años > 18) {
+if (años < 13 || años > 18) {
     alert("Esta persona no es adolescente");
 
 }
