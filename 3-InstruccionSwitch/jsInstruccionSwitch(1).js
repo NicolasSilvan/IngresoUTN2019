@@ -1,9 +1,9 @@
 function Mostrar()
 {
 //tomo el mes
-var mesDelAño = document.getElementById('mes').value;
+var mes = document.getElementById('mes').value;
 
-switch (mesDelAño) {
+switch (mes) {
     case "Enero":
         alert("que comiences bien el año!!!.")
 

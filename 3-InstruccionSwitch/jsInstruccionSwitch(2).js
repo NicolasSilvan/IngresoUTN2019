@@ -1,11 +1,11 @@
 function Mostrar()
 {
 //tomo el mes 
-var mesDelAño = document.getElementById('mes').value;
+var mes = document.getElementById('mes').value;
 
-alert (mesDelAño);
+//alert (mes);
 
-switch (mesDelAño) {
+switch (mes) {
     case "Enero":
     case "Febrero":
     case "Marzo":
