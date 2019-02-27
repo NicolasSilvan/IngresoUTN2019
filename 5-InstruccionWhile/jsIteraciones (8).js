@@ -7,6 +7,8 @@ function Mostrar()
 	
 	var respuesta='si';
 
+	
+
 
 document.getElementById('suma').value=positivo;
 document.getElementById('producto').value=negativo;
