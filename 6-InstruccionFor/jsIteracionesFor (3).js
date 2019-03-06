@@ -6,7 +6,7 @@ function Mostrar() {
         repeticiones = parseInt(prompt("Eso no es un numero. Ingrese el numero"));
 
     }
-    for (var i = 0; 1 < repeticiones; i++) {
+    for (var i = 0; i < repeticiones; i++) {
         console.log("Hola UTNFRA");
 
     }
